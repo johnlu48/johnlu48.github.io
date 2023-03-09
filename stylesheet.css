@@ -1,1 +1,47 @@
-ECHO is on.
+/* Apply styles to h1 tag */
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+/* Create a class named "highlight" and apply it to h2 and p elements */
+.highlight {
+  background-color: #f7e6d1;
+  border: 1px solid #e5c6a0;
+  padding: 1rem;
+}
+
+/* Create an id named "projects" and apply it to the second section */
+#projects {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+/* Change the color of links when hovered over */
+a:hover {
+  color: #f7e6d1;
+}
+
+/* Change the box model properties of ul elements */
+ul {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin: 1rem;
+  padding: 1rem;
+  list-style-type: none;
+}
+
+/* Change the box model properties of li elements */
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Include an image */
+img {
+  max-width: 100%;
+  height: auto;
+}
